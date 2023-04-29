@@ -1,15 +1,12 @@
 header #logo{
     width: 90px;
     height: 90px;
-    transition: 0.4;
+
 }
 
 header{
-    overflow: hidden;
-    background-color: #ffffff ;
-    padding: 50px 10px;
-    transition: 0.4s;
-    position: fixed;
+    overflow: hidden;    
+    padding: 50px 10px;        
     width: 100%;
     top:0px;
     z-index: index 100; 
