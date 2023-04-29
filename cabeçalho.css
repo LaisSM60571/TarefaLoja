@@ -9,10 +9,11 @@ header{
     padding: 50px 10px;        
     width: 100%;
     top:0px;
-    z-index: index 100; 
+    z-index: index 100;
 }
 
 header a{
+    font-family: Arial;
     float: left;
     color: black;
     text-align: center;
