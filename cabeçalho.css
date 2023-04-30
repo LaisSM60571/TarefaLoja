@@ -1,15 +1,18 @@
-header #logo{
+#logo {
     width: 90px;
     height: 90px;
-
+    padding: 0%;
+    border-radius: 50%;
 }
 
 header{
     overflow: hidden;    
-    padding: 50px 10px;        
     width: 100%;
-    top:0px;
-    z-index: index 100;
+    margin-top:0;
+    z-index: 100;    
+    background-color: #a1c6e9;
+    border-radius: 5px;
+    padding: 0px 0px 0px 0px;
 }
 
 header a{

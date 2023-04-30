@@ -8,6 +8,30 @@
     <title>Tarefa em Sala</title>
 </head>
 <body>
+    <style>
+        h1 {
+            font-family: Arial;
+            font-size: 18;
+            color: #05061d;
+            margin-left: 36%;
+            margin-right: 36%;
+        }
+        body form {
+            font-family: Arial;
+            color: #04294d;
+            margin-left: 36%;
+            margin-right: 36%;
+            justify-content: center;
+        }
+
+        input, select, textarea {
+            font-family: Arial;
+            font-size: 14;
+            color: #023774;
+            border-radius: 5px;
+        }
+    </style>
+
     <header>
         <img src="../pg/img/logo.jpeg" id="logo">
         <div>
@@ -17,6 +41,37 @@
             <a href="serviço.html">Serviços</a> &nbsp; &nbsp;
         </div>
     </header>
-    <h2>Contato</h2>
+
+    <h1>Contato</h1>
+    <form>
+        <input type="text" name="nome" value="" placeholder="Digite seu nome" required><br><br>
+
+        <label for="email" required>E-mail:</label><br>
+        <input type="email" name="email" value=""><br><br>
+
+        <label for="res">Estado onde reside:</label><br>
+        <select name="res">
+            <option value="ES">ES</option>
+            <option value="MG">MG</option>
+            <option value="RJ">RJ</option>
+            <option value="SP" selected>SP</option>
+            <option value="O">Outro</option>
+        </select><br><br>
+
+        <label for="genero">Genêro:</label><br>
+        <input type="radio" name="genero" value="m">Masculino<br>
+        <input type="radio" name="genero" value="f">Feminino<br>
+        <input type="radio" name="genero" value="o">Outros<br><br>
+
+
+        <label for="area">Com qual área deseja se comunicar:</label><br>
+        <input type="radio" name="area" value="produto">Produtos<br>
+        <input type="radio" name="area" value="serviço">Serviços<br>
+        <input type="radio" name="area" value="adm">Administração<br>
+        <input type="radio" name="area" value="compra">Área de compra<br><br>
+
+        <label for="msg">Mensagem:</label><br>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" name="sbmt" value="Enviar">
 </body>
 </html>
